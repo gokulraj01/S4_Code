@@ -1,0 +1,11 @@
+Resource Count: 3
+Free Resources: 2 3 1
+Process Count: 4
+Allocation for Process 1: 1 1 0
+Allocation for Process 2: 0 0 0
+Allocation for Process 3: 0 0 3
+Allocation for Process 4: 1 2 1
+Need for Process 1: 2 2 2
+Need for Process 2: 1 2 1
+Need for Process 3: 1 0 3
+Need for Process 4: 1 1 1
