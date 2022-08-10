@@ -27,7 +27,7 @@ void rrCPU(struct Process **processList, int q, int n){
                         int tat = time - processList[i]->arrivalTime;
                         int wt = tat - processList[i]->burstTime;
                         avgWait += wt; avgTurnaround+= tat;
-                        printf("P%d\t%d\t%d\t%d\n", i+1, wt, tat, time);
+                        printf("P%d\t%d\t%d\n", i+1, wt, tat);
                     }
                     // Else, do one quantum and continue
                     else{
