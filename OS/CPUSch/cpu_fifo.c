@@ -81,7 +81,7 @@ void fifoCPU(struct Process **processList, int n){
             processList[i]->start = processList[i]->arrivalTime;
             time = processList[i]->arrivalTime + processList[i]->burstTime;
             // Wait is 0, Turnaround is same as BurstTime
-            wt = 0; tat += processList[i]->burstTime;
+            wt = 0; tat = processList[i]->burstTime;
         }
         processList[i]->end = time;
         runOrder[i] = i;
