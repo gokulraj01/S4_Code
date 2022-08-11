@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R4A, CSE
+// CPU Scheduling: SJF (Shortest Job First)
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

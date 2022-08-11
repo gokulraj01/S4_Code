@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R4A, CSE
+// Disk Scheduling: FCFS (First Come First Serve)
 #include <stdio.h>
 #include <stdlib.h>
 

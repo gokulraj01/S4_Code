@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R4A, CSE
+// Implementation of Bankers Algorithm for Deadlock Detection
 #include <stdio.h>
 #include <stdlib.h>
 

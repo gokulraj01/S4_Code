@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R4A, CSE
+// CPU Scheduling: Priority
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>

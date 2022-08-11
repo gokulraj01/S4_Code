@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R4A, CSE
+// CPU Scheduling: FCFS (First Come First Serve)
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>

@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R4A, CSE
+// Interprocess Communication using Shared Memory (MMAP)
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/mman.h>

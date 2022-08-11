@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R4A, CSE
+// Page Replacement: Least Frequently Used (LFU)
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>

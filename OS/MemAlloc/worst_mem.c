@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R4A, CSE
+// Memory Allocation: Worst Fit
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R4A, CSE
+// Disk Scheduling: Circular SCAN (C-SCAN)
 #include <stdio.h>
 #include <stdlib.h>
 
