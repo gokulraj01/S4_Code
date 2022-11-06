@@ -36,7 +36,12 @@ void bankersAlg(struct Process **needMat, int **allocMat, int *freeRes,
             needMat[selectedProc]->done = 1;
             // Release resources from this process to pool
             for(int k=0; k<res_n; k++)
-                freeRes[k] += needMat[selectedProc]->need[k];
+                freeRes[k] += allocMat[selectedProc][k];
+            // // Display free resources
+            // printf("Free: ");
+            // for(int k=0; k<res_n; k++)
+            //     printf("%d, ",freeRes[k]);
+            // putchar('\n');
         }
         else break;
     }

@@ -69,6 +69,7 @@ int lfu(struct Frame **pages, int *refStr, int n){
         pages[min_frame]->arrivalTime = time;
         pages[min_frame]->hits = 1;
     }
+    displayFrames(pages);
     return faults;
 }
 

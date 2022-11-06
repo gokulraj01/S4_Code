@@ -64,6 +64,7 @@ int lru(struct Frame **pages, int *refStr, int n){
         pages[min_frame]->content = refStr[i];
         pages[min_frame]->arrivalTime = time;
     }
+    displayFrames(pages);
     return faults;
 }
 
